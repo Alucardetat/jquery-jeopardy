@@ -8,59 +8,59 @@
 </head>
 <body>
     <h1 id="welcome">Welcome To JQuery Jeopardy</h1>
-    <p id="score">Score: $0</p>
+    <p id="score">Score: </p>
 
     <div class="container">
         <div class="jeopardy-categories">
         <section class="row-one">
-            <div class="jeopardy-question" data-value="$200">$200</div>
-            <div class="jeopardy-question" data-value="$400">$400</div>
-            <div class="jeopardy-question" data-value="$600">$600</div>
-            <div class="jeopardy-question" data-value="$800">$800</div>
-            <div class="jeopardy-question" data-value="$1000">$1000</div>
+            <div class="jeopardy-question" id="01-1"data-value="$200">$200</div>
+            <div class="jeopardy-question" id="01-2"data-value="$400">$400</div>
+            <div class="jeopardy-question" id="01-3"data-value="$600">$600</div>
+            <div class="jeopardy-question" id="01-4"data-value="$800">$800</div>
+            <div class="jeopardy-question" id="01-5"data-value="$1000">$1000</div>
         </section>
 
         <section class="row-two">
-            <div class="jeopardy-question" data-value="$200">$200</div>
-            <div class="jeopardy-question" data-value="$400">$400</div>
-            <div class="jeopardy-question" data-value="$600">$600</div>
-            <div class="jeopardy-question" data-value="$800">$800</div>
-            <div class="jeopardy-question" data-value="$1000">$1000</div>
+            <div class="jeopardy-question" id="02-1" data-value="$200">$200</div>
+            <div class="jeopardy-question" id="02-2" data-value="$400">$400</div>
+            <div class="jeopardy-question" id="02-3" data-value="$600">$600</div>
+            <div class="jeopardy-question" id="02-4" data-value="$800">$800</div>
+            <div class="jeopardy-question" id="02-5" data-value="$1000">$1000</div>
         </section>
 
         <section class="row-three">
-            <div class="jeopardy-question" data-value="$200">$200</div>
-            <div class="jeopardy-question" data-value="$400">$400</div>
-            <div class="jeopardy-question" data-value="$600">$600</div>
-            <div class="jeopardy-question" data-value="$800">$800</div>
-            <div class="jeopardy-question" data-value="$1000">$1000</div>
+            <div class="jeopardy-question" id="03-1" data-value="$200">$200</div>
+            <div class="jeopardy-question" id="03-2" data-value="$400">$400</div>
+            <div class="jeopardy-question" id="03-3" data-value="$600">$600</div>
+            <div class="jeopardy-question" id="03-4" data-value="$800">$800</div>
+            <div class="jeopardy-question" id="03-5" data-value="$1000">$1000</div>
         </section>
 
         <section class="row-four">
-            <div class="jeopardy-question" data-value="$200">$200</div>
-            <div class="jeopardy-question" data-value="$400">$400</div>
-            <div class="jeopardy-question" data-value="$600">$600</div>
-            <div class="jeopardy-question" data-value="$800">$800</div>
-            <div class="jeopardy-question" data-value="$1000">$1000</div>
+            <div class="jeopardy-question" id="04-1" data-value="$200">$200</div>
+            <div class="jeopardy-question" id="04-2" data-value="$400">$400</div>
+            <div class="jeopardy-question" id="04-3" data-value="$600">$600</div>
+            <div class="jeopardy-question" id="04-4" data-value="$800">$800</div>
+            <div class="jeopardy-question" id="04-5" data-value="$1000">$1000</div>
         </section>
 
         <section class="row-five">
-            <div class="jeopardy-question" data-value="$200">$200</div>
-            <div class="jeopardy-question" data-value="$400">$400</div>
-            <div class="jeopardy-question" data-value="$600">$600</div>
-            <div class="jeopardy-question" data-value="$800">$800</div>
-            <div class="jeopardy-question" data-value="$1000">$1000</div>
+            <div class="jeopardy-question" id="05-1" data-value="$200">$200</div>
+            <div class="jeopardy-question" id="05-2" data-value="$400">$400</div>
+            <div class="jeopardy-question" id="05-3" data-value="$600">$600</div>
+            <div class="jeopardy-question" id="05-4" data-value="$800">$800</div>
+            <div class="jeopardy-question" id="05-5" data-value="$1000">$1000</div>
         </section>
     </div>
 
     <div class="question-panel">
         <p class="question-window"></p>
-        <input type="text" class="answer-input" placeholder="Your answer">
-        <button class="submit-answer">Submit Answer</button>
+        <input name="answer" type="text" class="answer-input" placeholder="Your answer">
+        <button for="answer" class="submit-answer">Submit Answer</button>
     </div>
     </div>
 
-    <button class="reset-button">Reset Game</button>
+    <button class="reset-button" disabled>Reset Game</button>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
