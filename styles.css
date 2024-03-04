@@ -55,7 +55,8 @@ h1,
     margin-bottom: 2vw;
 }
 
-.jeopardy-question:hover {
+.jeopardy-question:hover,
+.jeopardy-question.selected {
     background-color: #071115;
     color: #aa00a4;
     box-shadow: 0 0 2vw #aa00a4;
@@ -128,6 +129,12 @@ h1,
     color: #aa00a4;
     box-shadow: 0 0 20px #aa00a4;
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
 
 @media screen and (max-width: 600px) {
     .jeopardy-categories,
